@@ -11,3 +11,11 @@ def test_check_codeword2():
 def test_check_codeword3():
     result = check_codeword("house")
     assert result == "Close, but nope."
+
+def test_check_codeword4():
+    result = check_codeword("hjjjjje")
+    assert result == "Close, but nope."
+
+def test_check_codeword5():
+    result = check_codeword("Horse")
+    assert result == "WRONG!"

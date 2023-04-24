@@ -11,3 +11,10 @@ def test_report_length2():
 def test_report_length3():
     result = report_length("My_report.csv")
     assert result == "This string was 13 characters long."
+
+
+def test_report_length4():
+    result = report_length("hello world")
+    assert result == "This string was 11 characters long."
+
+
